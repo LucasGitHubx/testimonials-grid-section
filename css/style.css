@@ -19,3 +19,66 @@ html{
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+.main{
+    display: grid;
+    row-gap: 2rem;
+    margin: 1rem;
+}
+.main figure{
+    margin: 0;
+    height: fit-content;
+}
+.main .main__section{
+    border-radius: 1rem;
+}
+/* STYLING SECTION1 */
+.main__section1 .main__article1 .quotes img{
+    border: none;
+    border-radius: 0%;
+    position: absolute;
+}
+
+.main__section1{
+    background-color: var(--ModerateViolet);
+    padding: 3rem;
+}
+.main__section1{
+    display: flex;
+    flex-direction: column;
+}
+.main__section1 .main__article1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.main__section1 .main__article figure img{
+    border-radius: 50%;
+    opacity: 1;
+    border: 3px solid hsl(263, 88%, 73%)
+}
+.main__section1 .main__article1 .text{
+    height: fit-content;
+}
+.main__section1 .main__article1 .text p, .main__section1 .main__article1 .text h4 {
+    margin: 2px;
+}
+.main__section1 .main__article1 .text h4{
+    font-size: 1.3rem;
+    color: var(--White);
+}
+.main__section1 .main__article1 .text p{
+    color: var(--White);
+    opacity: .5;
+}
+
+.main__section1 .main__article2 h2{
+    color: var(--White);
+    font-size: 1.8rem;
+}
+.main__section1 .main__article3 p{
+    color: var(--White);
+    opacity: .3;
+    line-height: 1.5rem;
+}
+/* END OF STYLING SECTION1 */
