@@ -137,3 +137,24 @@ body{
     line-height: 1.5rem;
 }
 /* END OF STYLING SECTION4 */
+
+/* STYLING SECTION5 */
+.main__section5 .main__article1 .text h4, .main__section3 .main__article1 .text p{
+    color: var(--Very-dark-grayish-blue);
+}
+.main__section5{
+    background-color: var(--Light-grayish-blue);
+}
+.main__section5 .main__article1 figure img{
+    border: 3px solid var(--Light-gray);
+}
+.main__section5 .main__article2 h2{
+    color: var(--Very-dark-grayish-blue);
+    font-size: 1.8rem;
+}
+.main__section5 .main__article3 p{
+    color: var(--Very-dark-grayish-blue);
+    opacity: .7;
+    line-height: 1.5rem;
+}
+/* END OF STYLING SECTION5 */
