@@ -116,3 +116,24 @@ body{
     line-height: 1.5rem;
 }
 /* END OF STYLING SECTION3 */
+
+/* STYLING SECTION4 */
+.main__section4 .main__article1 .text h4, .main__section3 .main__article1 .text p{
+    color: var(--White);
+}
+.main__section4{
+    background-color: var(--Very-dark-blackish-blue);
+}
+.main__section4 .main__article1 figure img{
+    border: 3px solid var(--ModerateViolet);
+}
+.main__section4 .main__article2 h2{
+    color: var(--White);
+    font-size: 1.8rem;
+}
+.main__section4 .main__article3 p{
+    color: var(--White);
+    opacity: .7;
+    line-height: 1.5rem;
+}
+/* END OF STYLING SECTION4 */
