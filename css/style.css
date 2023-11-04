@@ -32,12 +32,6 @@ body{
 .main .main__section{
     border-radius: 1rem;
 }
-/* STYLING SECTION1 */
-.main__section1 .main__article1 .quotes img{
-    border: none;
-    border-radius: 0%;
-    position: absolute;
-}
 
 .main__section1{
     background-color: var(--ModerateViolet);
@@ -47,31 +41,32 @@ body{
     display: flex;
     flex-direction: column;
 }
-.main__section1 .main__article1{
+.main__section .main__article{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.main__section1 .main__article figure img{
+.main__section .main__article figure img{
     border-radius: 50%;
     opacity: 1;
     border: 3px solid hsl(263, 88%, 73%)
 }
-.main__section1 .main__article1 .text{
+.main__section .main__article .text{
     height: fit-content;
 }
-.main__section1 .main__article1 .text p, .main__section1 .main__article1 .text h4 {
+.main__section .main__article .text p, .main__section .main__article .text h4 {
     margin: 2px;
 }
-.main__section1 .main__article1 .text h4{
+.main__section .main__article .text h4{
     font-size: 1.3rem;
     color: var(--White);
 }
-.main__section1 .main__article1 .text p{
+.main__section .main__article .text p{
     color: var(--White);
     opacity: .5;
 }
 
+/* STYLING SECTION1 */
 .main__section1 .main__article2 h2{
     color: var(--White);
     font-size: 1.8rem;
